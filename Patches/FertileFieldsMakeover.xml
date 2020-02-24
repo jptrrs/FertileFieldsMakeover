@@ -3,33 +3,34 @@
 	<Operation Class="PatchOperationReplace">
 	   <xpath>/Defs/ThingDef[defName = "RawCompost"]/graphicData/texPath</xpath>
 	   <value>
-               <texPath>Compost</texPath>
+		   <texPath>Compost</texPath>
 	   </value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
 	   <xpath>/Defs/ThingDef[defName = "Fertilizer"]/graphicData/texPath</xpath>
 	   <value>
-               <texPath>Fertilizer</texPath>
+		   <texPath>Fertilizer</texPath>
 	   </value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
 	   <xpath>/Defs/ThingDef[defName = "CrushedRocks"]/graphicData/texPath</xpath>
 	   <value>
-               <texPath>CrushedRocks</texPath>
+		   <texPath>CrushedRocks</texPath>
 	   </value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
 	   <xpath>/Defs/ThingDef[defName = "PileofDirt"]/graphicData/texPath</xpath>
 	   <value>
-	   			<texPath>DirtPile</texPath>
+			<texPath>DirtPile</texPath>
 	   </value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
 	   <xpath>/Defs/ThingDef[defName = "SandPile"]/graphicData/texPath</xpath>
 	   <value>
-	   			<texPath>SandPile</texPath>
+			<texPath>SandPile</texPath>
 	   </value>
-	</Operation> 
+	</Operation>
+	
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>	
 			<operations>
@@ -47,12 +48,25 @@
 			</li>
 		</operations>   
 	</Operation>
-	<Operation Class="PatchOperationReplace">
-	   <xpath>/Defs/ThingDef[defName = "PlantScraps"]/graphicData/texPath</xpath>
-	   <value>
-	   			<texPath>Stuff/Scraps</texPath>
-	   </value>
-	</Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "PlantScraps"]/graphicData/texPath</xpath>
+        <value>
+          <texPath>Scraps</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "PlantScraps"]/graphicData/graphicClass</xpath>
+        <value>
+          <graphicClass>Graphic_StackCount</graphicClass>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>	
 			<operations>

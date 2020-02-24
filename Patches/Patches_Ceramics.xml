@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Ceramics Makeover -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[1.0] Ceramics</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
+			<operations>
+
+				<!-- We'll use our own sand texture, thanks -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "SandPile"]/graphicData/texPath</xpath>
+					<value>
+						<texPath>SandPile</texPath>
+					</value>
+				</li>
+
+				<!-- Change Ceramics' Bricks Appearance to match Fertile Fields' -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "N7_FiredBrick"]/graphicData/texPath</xpath>
+					<value>
+						<texPath>Things/Item/Resource/StoneBlocks</texPath>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "N7_FiredBrick"]/graphicData</xpath>
+					<value>
+						<color>(139,72,42)</color>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "N7_FiredBrick"]/stuffProps/color</xpath>
+					<value>
+						<color>(164,89,50)</color>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "N7_FiredBrick"]/stuffProps</xpath>
+					<value>
+						<appearance>Bricks</appearance>
+					</value>
+				</li>
+				
+				<!-- Change Brick floor appearance to Fertile Fields' -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/TerrainDef[defName = "FiredBrickFloor"]/texturePath</xpath>
+					<value>
+						<texturePath>Stuff/RFF_TileBricks</texturePath>
+					</value>
+				</li>
+				
+				
+			</operations>
+		</match> 
+	</Operation>
+</Patch>
+

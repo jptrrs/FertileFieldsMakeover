@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Rainbeau's Concrete Makeover -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[RF] Concrete [1.0]</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "RFFCement"]/graphicData/texPath</xpath>
+					<value>
+						<texPath>Cement</texPath>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "RFFConcrete"]/graphicData/texPath</xpath>
+					<value>
+						<texPath>RFFConcrete</texPath>
+					</value>
+				</li>
+			</operations>
+		</match> 
+	</Operation>
+</Patch>
+

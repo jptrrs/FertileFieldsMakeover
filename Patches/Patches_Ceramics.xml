@@ -4,6 +4,7 @@
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>[1.0] Ceramics</li>
+			<li>[1.1] Ceramics</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<success>Normal</success>

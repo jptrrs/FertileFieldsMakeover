@@ -5,6 +5,7 @@
   <supportedVersions>
     <li>1.0</li>
     <li>1.1</li>
+	<li>1.2</li>
   </supportedVersions>
   <packageId>JPT.FertileFieldsMakeover</packageId>
   <modDependencies>
@@ -21,10 +22,7 @@
     <li>n7huntsman.ceramics</li>
     <!--<li>Fertile Fields Dub's Hygiene Compat</li>-->
   </loadAfter>
-  <description>v1.1.2
-Everybody loves Rainbeau's Fertile Fields... but only for what's inside! I thought it deserved better looks, so that's what I did. This is a recoloring and retexture of its resources. I didn't touch the buildings or the UI, tough, as it seems to me they fit well within the rest of the game. Changes also extend to these other mods, if present: 
-- Rainbeau's Concrete
-- dninemfive's Fertile Fields Dub's Hygiene Compat
-- N7Hunstman Ceramics
+  <description>
+Everybody loves Rainbeau's Fertile Fields... but only for what's inside! I thought it deserved better looks, so that's what I did. This is a recoloring and retexture of its resources. I didn't touch the buildings or the UI, tough, as it seems to me they fit well within the rest of the game.
   </description>
 </ModMetaData>

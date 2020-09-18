@@ -5,6 +5,7 @@
 		<mods>
 			<li>[RF] Concrete [1.0]</li>
 			<li>[RF] Concrete (Continued)</li>
+			<li>Concrete (Continued)</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<success>Normal</success>

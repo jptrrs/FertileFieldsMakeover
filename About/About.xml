@@ -8,19 +8,11 @@
 	<li>1.2</li>
   </supportedVersions>
   <packageId>JPT.FertileFieldsMakeover</packageId>
-  <modDependencies>
-    <!--<li>
-      <packageId>RF.FertileFields</packageId>
-      <displayName>Fertile Fields</displayName>
-      <steamWorkshopUrl>steam://url/CommunityFilePage/1539311500</steamWorkshopUrl>
-    </li>-->
-  </modDependencies>
   <loadAfter>
 	<li>jamaicancastle.RF.fertilefields</li>
 	<li>Mlie.Concrete</li>
-    <!--<li>RF.Concrete</li>-->
     <li>n7huntsman.ceramics</li>
-    <!--<li>Fertile Fields Dub's Hygiene Compat</li>-->
+	<li>malkav73.concrete</li>
   </loadAfter>
   <description>
 Everybody loves Rainbeau's Fertile Fields... but only for what's inside! I thought it deserved better looks, so that's what I did. This is a recoloring and retexture of its resources. I didn't touch the buildings or the UI, tough, as it seems to me they fit well within the rest of the game.

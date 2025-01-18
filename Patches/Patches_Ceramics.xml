@@ -6,6 +6,8 @@
 			<li>[1.0] Ceramics</li>
 			<li>[1.1] Ceramics</li>
 			<li>Ceramics</li>
+			<li>Ceramics Crafting</li>
+			<li>Ceramics VEF</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<success>Normal</success>
@@ -13,7 +15,7 @@
 
 				<!-- We'll use our own sand texture, thanks -->
 				<li Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName = "SandPile"]/graphicData/texPath</xpath>
+					<xpath>/Defs/ThingDef[defName = "SandPile" or defName = "N7_Sand"]/graphicData/texPath</xpath>
 					<value>
 						<texPath>SandPile</texPath>
 					</value>

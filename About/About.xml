@@ -7,13 +7,18 @@
     <li>1.1</li>
 	<li>1.2</li>
 	<li>1.3</li>
+	<li>1.4</li>
+	<li>1.5</li>
   </supportedVersions>
   <packageId>JPT.FertileFieldsMakeover</packageId>
   <loadAfter>
 	<li>jamaicancastle.RF.fertilefields</li>
+	<li>greysuki.RF.fertilefields</li>
+	<li>malkav73.concrete</li>
 	<li>Mlie.Concrete</li>
     <li>n7huntsman.ceramics</li>
-	<li>malkav73.concrete</li>
+	<li>n7huntsman.ceramics.vef</li>
+	<li>n7huntsman.ceramics.craft</li>
   </loadAfter>
   <description>
 Everybody loves Rainbeau's Fertile Fields... but only for what's inside! I thought it deserved better looks, so that's what I did. This is a recoloring and retexture of its resources. I didn't touch the buildings or the UI, tough, as it seems to me they fit well within the rest of the game.
